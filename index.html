@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Kwesi | Frontend Developer</title>
+</head>
+<body>
+    <header class="site-header">
+        <a href="#" class="logo">Kwesi<span>.</span></a>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+             <div class="hero-text">
+                <p class="eyebrow">Hello, I'm</p>
+                <h1>Kwesi Korankye</h1>
+                <p class="lead">A frontend developer in Kumasi. I turn ideas into interactive realities, transform creativity into design, and use code to build solutions that make the internet a better place.</p>
+                <div class="buttons">
+                    <a href="#projects" class="btn">See my work</a>
+                    <a href="#contact" class="btn btn-outline">Contact me</a>       
+                </div>
+             </div>
+             <img src="images/avatar.jpg" alt="Illustration" of Kwesi" class="hero-photo"> 
+            </section>
+        </main>
+        <section id="about" class="about">
+            <h2>About me</h2>
+            <p>I started learning web development at Codolla Skills Lab bootcamp. I enjoy turning ideas into websites that smmall business can be proud of.</p>
+            <ul class="skills">
+                <li>Figma</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Git</li>
+            </ul>
+        </section>
+        <section id="projects" class="projects">
+            <h2>My projects</h2>
+            <div class="cards">
+                <article class="card">
+                    <img src="images/project-1.jpeg" alt="Screenshot of a shop app">
+                    <h3>ShopEase Order App</h3>
+                    <p>A small medium online and counter retail.</p>
+                </article>
+                <article class="card">
+                    <img src="images/project-2.jpeg" alt="Screenshot of an autism center website">
+                    <h3>Autism Center Website</h3>
+                    <p>A page website for an autism center.</p>
+                </article>
+                <article class="card">
+                    <img src="images/project-3.jpeg" alt="Screenshot of a messaging platform">
+                     <h3>Talking Tom</h3>
+                     <p>A customer messaging platform.</p>    
+                </article>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Let's work together</h2>
+            <form class="contact-form">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Your email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit" class="btn">Send message</button>
+            </form>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <p>&copy; 2026 Kwesi Korankye. Built at Codolla Skills Lab.</p>
+    </footer>
+</body>
+</html>   
